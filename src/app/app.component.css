@@ -1,0 +1,8 @@
+p {
+  font-family: Lato;
+}
+
+.source-code-block{
+  border-left: 5px solid #fbf2d4;
+  padding: 10px;
+}

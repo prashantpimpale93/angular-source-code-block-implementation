@@ -1,0 +1,9 @@
+<div [ngClass]="isCodeBlock ? 'source-code-block': ''">
+  Do you want me to looks like code block?
+</div>
+
+<div>
+  I am normal text!
+</div>
+<br>
+<button (click)="isCodeBlock = ! isCodeBlock">Toggle Code Block</button>
